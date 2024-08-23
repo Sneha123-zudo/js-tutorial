@@ -23,12 +23,3 @@ let und =undefined
 console.log(und);
 console.log(typeof und);
 
-
-
-
-
-
-
-
-
-
