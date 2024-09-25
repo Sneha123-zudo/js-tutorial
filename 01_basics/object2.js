@@ -5,6 +5,7 @@
     tinderUser.id ="123abc"
     tinderUser.name = "Som"
     tinderUser.email = "somgithub@gmail.com"
+    tinderUser.isLoggedIn = "True"
 //console.log(tinderUser)
 
 const realUser = {
@@ -30,3 +31,6 @@ console.log(obj3)
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+console.log(tinderUser.hasOwnProperty('isLogged'))
