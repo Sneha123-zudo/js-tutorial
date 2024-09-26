@@ -44,3 +44,23 @@ console.log(handleObject = {
     username : "Sam",
     price : 40
 })
+
+
+//Functions with array
+
+//Indirect 
+
+const myNewArray = [10, 20, 30, 40, 50]
+
+function Array (anyArray){
+    return anyArray[2]
+}
+console.log(Array(myNewArray))
+
+//Direct passing
+
+
+function Array(anyArray){
+    return anyArray[2]
+}
+console.log(Array([20,40,50,60]))
