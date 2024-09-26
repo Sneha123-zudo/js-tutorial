@@ -21,3 +21,14 @@ if(true){
 }
 //console.log(username2)
 
+console.log(addone(3))
+function addone(num1){
+    return num1 + 2
+}
+
+
+//console.log(addtwo(3))
+const addtwo = function(num1){
+    return num1 + 2
+}
+console.log(addtwo(3))
