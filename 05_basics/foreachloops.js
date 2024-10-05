@@ -21,3 +21,23 @@ coding.forEach(printMe)
 coding.forEach((item , index , array)=>{
     console.log(item , index , array)
 })
+
+
+
+const coding1 = [
+    {
+        languageName : "Javascript",
+        languageFileName : "js"
+    },
+    {
+        languageName : "Java",
+        languageFileName : "java"
+    },
+    {
+        languageName : "Python",
+        languageFileName : "py"
+    }
+]
+coding1.forEach((item) => {
+    console.log(item.languageName)
+})
