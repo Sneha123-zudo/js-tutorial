@@ -30,13 +30,20 @@
 
 // Reassignment is possible
 
-let a = 10;
-console.log(a);
+//let a = 10;
+//console.log(a);
 
-a = "Sneha";
-console.log(a)
+//a = "Sneha";
+//console.log(a)
 
 // Redefinition is not possible
 
 //let b = 10;
 //let b = 20;
+
+
+
+
+//Redefinition , reassignment is not possible 
+const a = 20;
+console.log(a);
